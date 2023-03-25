@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pd * | sed -e 's|[/]*$|/|' | tr '\n' ',' | sed -e 's|,$|\n|'
+ls -pd * | sed -e 's|[/]*$|/|' | tr '\n' ',' | sed -e 's | ,$|\n|'
